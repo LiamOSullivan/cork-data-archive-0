@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel modelBaseVersion="1.0"
+                xmlns="http://datex2.eu/schema/1_0/1_0"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0 http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="MeasurementSiteTablePublication" lang="eng">
+  <publicationTime>2019-07-03T23:08:52+01:00</publicationTime>
+  <publicationCreator>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </publicationCreator>
+  <headerInformation>
+   <confidentiality>noRestriction</confidentiality>
+   <informationStatus>real</informationStatus>
+  </headerInformation>
+  <measurementSiteTable id="WeatherSites">
+   <measurementSiteTableReference>WeatherSites</measurementSiteTableReference>
+   <measurementSiteTableVersion>7</measurementSiteTableVersion>
+ 
+   <measurementSiteRecord id="NRA10810">
+    <measurementEquipmentReference>10810</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">N11 Glen of the Downs</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="3">
+     <period>3600</period>
+     <specificMeasurementValueType>windInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="4">
+     <period>3600</period>
+     <specificMeasurementValueType>roadSurfaceConditionInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="5">
+     <period>3600</period>
+     <specificMeasurementValueType>visibilityInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSiteLocation xsi:type="Point">
+     <tpegpointLocation xsi:type="TPEGSimplePoint">
+      <tpegDirection>allDirections</tpegDirection>
+      <tpegLocationType>nonLinkedPoint</tpegLocationType>
+      <point xsi:type="TPEGNonJunctionPoint">
+       <pointCoordinates>
+        <latitude>53.14007</latitude>
+        <longitude>-6.1234</longitude>
+       </pointCoordinates>
+       <name>
+        <descriptor>
+         <value lang="en">N11</value>
+        </descriptor>
+        <tpegDescriptorType>linkName</tpegDescriptorType>
+       </name>
+       <name>
+        <descriptor>
+         <value lang="en">N11 Glen of the Downs</value>
+        </descriptor>
+        <tpegDescriptorType>nonLinkedPointName</tpegDescriptorType>
+       </name>
+      </point>
+     </tpegpointLocation>
+    </measurementSiteLocation>
+   </measurementSiteRecord>
+ 
+   <measurementSiteRecord id="NRA11139">
+    <measurementEquipmentReference>11139</measurementEquipmentReference>
+    <measurementEquipmentTypeUsed>
+     <value lang="en">Weather</value>
+    </measurementEquipmentTypeUsed>
+    <measurementSiteName>
+     <value lang="en">M18 Cloneen</value>
+    </measurementSiteName>
+    <measurementSpecificCharacteristics index="1">
+     <period>3600</period>
+     <specificMeasurementValueType>temperatureInformation</specificMeasurementValueType>
+    </measurementSpecificCharacteristics>
+    <measurementSpecificCharacteristics index="2">
+     <period>3600</period>
+     <specificMeasurementValueType>precipitationInformation</specificMeasurementValueType>
+    </measurementSpecificCha
